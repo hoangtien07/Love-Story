@@ -19,7 +19,7 @@
         </style>
 </head>
     <body>
-			<audio autoplay="autoplay">
+			<audio autoplay="autoplay" loop>
 					<source src="./I-Do-911.mp3" type="audio/mp3" />
 			</audio>  
         <div id="main">
@@ -204,6 +204,7 @@
 
         runAsync().start();
     })();
+	document.querySelector('audio').play()
     </script>
 </body>
 </html>
